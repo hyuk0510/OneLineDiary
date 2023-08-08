@@ -14,6 +14,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        //처음 실행할 때 앱에 적용되는 모든 텍스트 색상 변경
+//        UILabel.appearance().textColor = .white
+//        UITextView.appearance().textColor = .white
+//        UIBarButtonItem.appearance().tintColor = .white
+        
         return true
     }
 

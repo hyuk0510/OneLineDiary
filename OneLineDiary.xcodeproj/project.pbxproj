@@ -9,21 +9,45 @@
 /* Begin PBXBuildFile section */
 		D81BE52B2A773A4F002A0E08 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81BE52A2A773A4F002A0E08 /* AppDelegate.swift */; };
 		D81BE52D2A773A4F002A0E08 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81BE52C2A773A4F002A0E08 /* SceneDelegate.swift */; };
-		D81BE52F2A773A4F002A0E08 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81BE52E2A773A4F002A0E08 /* ViewController.swift */; };
+		D81BE52F2A773A4F002A0E08 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81BE52E2A773A4F002A0E08 /* AddViewController.swift */; };
 		D81BE5322A773A4F002A0E08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D81BE5302A773A4F002A0E08 /* Main.storyboard */; };
 		D81BE5342A773A50002A0E08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D81BE5332A773A50002A0E08 /* Assets.xcassets */; };
 		D81BE5372A773A50002A0E08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D81BE5352A773A50002A0E08 /* LaunchScreen.storyboard */; };
+		D81BE53F2A773AC8002A0E08 /* DiaryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81BE53E2A773AC8002A0E08 /* DiaryTableViewController.swift */; };
+		D81BE5422A773BBA002A0E08 /* DiaryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81BE5402A773BBA002A0E08 /* DiaryTableViewCell.swift */; };
+		D81BE5432A773BBA002A0E08 /* DiaryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D81BE5412A773BBA002A0E08 /* DiaryTableViewCell.xib */; };
+		D81BE5452A775319002A0E08 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81BE5442A775319002A0E08 /* DetailViewController.swift */; };
+		D873374F2A7B72B900BE6F6A /* LottoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D873374E2A7B72B900BE6F6A /* LottoViewController.swift */; };
+		D873378E2A80804E00BE6F6A /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = D873378D2A80804E00BE6F6A /* Alamofire */; };
+		D87337912A80805D00BE6F6A /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = D87337902A80805D00BE6F6A /* SwiftyJSON */; };
+		D8BFE8522A77625300105A6F /* Extension+UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8BFE8512A77625300105A6F /* Extension+UIViewController.swift */; };
+		D8BFE8542A77795700105A6F /* SearchCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8BFE8532A77795700105A6F /* SearchCollectionViewController.swift */; };
+		D8BFE8572A777AE000105A6F /* SearchCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8BFE8552A777AE000105A6F /* SearchCollectionViewCell.swift */; };
+		D8BFE8582A777AE000105A6F /* SearchCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8BFE8562A777AE000105A6F /* SearchCollectionViewCell.xib */; };
+		D8BFE8882A789B5800105A6F /* SettingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8BFE8872A789B5800105A6F /* SettingTableViewController.swift */; };
+		D8BFE88C2A79F23100105A6F /* TimelineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8BFE88B2A79F23100105A6F /* TimelineViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D81BE5272A773A4F002A0E08 /* OneLineDiary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OneLineDiary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D81BE52A2A773A4F002A0E08 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D81BE52C2A773A4F002A0E08 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D81BE52E2A773A4F002A0E08 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D81BE52E2A773A4F002A0E08 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
 		D81BE5312A773A4F002A0E08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D81BE5332A773A50002A0E08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D81BE5362A773A50002A0E08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D81BE5382A773A50002A0E08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D81BE53E2A773AC8002A0E08 /* DiaryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryTableViewController.swift; sourceTree = "<group>"; };
+		D81BE5402A773BBA002A0E08 /* DiaryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryTableViewCell.swift; sourceTree = "<group>"; };
+		D81BE5412A773BBA002A0E08 /* DiaryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DiaryTableViewCell.xib; sourceTree = "<group>"; };
+		D81BE5442A775319002A0E08 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = SOURCE_ROOT; };
+		D873374E2A7B72B900BE6F6A /* LottoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoViewController.swift; sourceTree = "<group>"; };
+		D8BFE8512A77625300105A6F /* Extension+UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIViewController.swift"; sourceTree = SOURCE_ROOT; };
+		D8BFE8532A77795700105A6F /* SearchCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCollectionViewController.swift; sourceTree = SOURCE_ROOT; };
+		D8BFE8552A777AE000105A6F /* SearchCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCollectionViewCell.swift; sourceTree = "<group>"; };
+		D8BFE8562A777AE000105A6F /* SearchCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchCollectionViewCell.xib; sourceTree = "<group>"; };
+		D8BFE8872A789B5800105A6F /* SettingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTableViewController.swift; sourceTree = "<group>"; };
+		D8BFE88B2A79F23100105A6F /* TimelineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +55,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D87337912A80805D00BE6F6A /* SwiftyJSON in Frameworks */,
+				D873378E2A80804E00BE6F6A /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,10 +82,21 @@
 		D81BE5292A773A4F002A0E08 /* OneLineDiary */ = {
 			isa = PBXGroup;
 			children = (
+				D8BFE8532A77795700105A6F /* SearchCollectionViewController.swift */,
+				D8BFE8512A77625300105A6F /* Extension+UIViewController.swift */,
+				D81BE5442A775319002A0E08 /* DetailViewController.swift */,
 				D81BE52A2A773A4F002A0E08 /* AppDelegate.swift */,
 				D81BE52C2A773A4F002A0E08 /* SceneDelegate.swift */,
-				D81BE52E2A773A4F002A0E08 /* ViewController.swift */,
+				D81BE52E2A773A4F002A0E08 /* AddViewController.swift */,
 				D81BE5302A773A4F002A0E08 /* Main.storyboard */,
+				D873374E2A7B72B900BE6F6A /* LottoViewController.swift */,
+				D8BFE88B2A79F23100105A6F /* TimelineViewController.swift */,
+				D8BFE8872A789B5800105A6F /* SettingTableViewController.swift */,
+				D8BFE8552A777AE000105A6F /* SearchCollectionViewCell.swift */,
+				D8BFE8562A777AE000105A6F /* SearchCollectionViewCell.xib */,
+				D81BE5402A773BBA002A0E08 /* DiaryTableViewCell.swift */,
+				D81BE5412A773BBA002A0E08 /* DiaryTableViewCell.xib */,
+				D81BE53E2A773AC8002A0E08 /* DiaryTableViewController.swift */,
 				D81BE5332A773A50002A0E08 /* Assets.xcassets */,
 				D81BE5352A773A50002A0E08 /* LaunchScreen.storyboard */,
 				D81BE5382A773A50002A0E08 /* Info.plist */,
@@ -83,6 +120,10 @@
 			dependencies = (
 			);
 			name = OneLineDiary;
+			packageProductDependencies = (
+				D873378D2A80804E00BE6F6A /* Alamofire */,
+				D87337902A80805D00BE6F6A /* SwiftyJSON */,
+			);
 			productName = OneLineDiary;
 			productReference = D81BE5272A773A4F002A0E08 /* OneLineDiary.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +152,10 @@
 				Base,
 			);
 			mainGroup = D81BE51E2A773A4F002A0E08;
+			packageReferences = (
+				D873378C2A80804E00BE6F6A /* XCRemoteSwiftPackageReference "Alamofire" */,
+				D873378F2A80805D00BE6F6A /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+			);
 			productRefGroup = D81BE5282A773A4F002A0E08 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,7 +172,9 @@
 			files = (
 				D81BE5372A773A50002A0E08 /* LaunchScreen.storyboard in Resources */,
 				D81BE5342A773A50002A0E08 /* Assets.xcassets in Resources */,
+				D8BFE8582A777AE000105A6F /* SearchCollectionViewCell.xib in Resources */,
 				D81BE5322A773A4F002A0E08 /* Main.storyboard in Resources */,
+				D81BE5432A773BBA002A0E08 /* DiaryTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +185,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D81BE52F2A773A4F002A0E08 /* ViewController.swift in Sources */,
+				D8BFE8542A77795700105A6F /* SearchCollectionViewController.swift in Sources */,
+				D8BFE88C2A79F23100105A6F /* TimelineViewController.swift in Sources */,
+				D81BE52F2A773A4F002A0E08 /* AddViewController.swift in Sources */,
+				D8BFE8522A77625300105A6F /* Extension+UIViewController.swift in Sources */,
+				D81BE5422A773BBA002A0E08 /* DiaryTableViewCell.swift in Sources */,
+				D8BFE8882A789B5800105A6F /* SettingTableViewController.swift in Sources */,
+				D81BE53F2A773AC8002A0E08 /* DiaryTableViewController.swift in Sources */,
+				D81BE5452A775319002A0E08 /* DetailViewController.swift in Sources */,
 				D81BE52B2A773A4F002A0E08 /* AppDelegate.swift in Sources */,
+				D873374F2A7B72B900BE6F6A /* LottoViewController.swift in Sources */,
 				D81BE52D2A773A4F002A0E08 /* SceneDelegate.swift in Sources */,
+				D8BFE8572A777AE000105A6F /* SearchCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,6 +414,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D873378C2A80804E00BE6F6A /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		D873378F2A80805D00BE6F6A /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D873378D2A80804E00BE6F6A /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D873378C2A80804E00BE6F6A /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		D87337902A80805D00BE6F6A /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D873378F2A80805D00BE6F6A /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D81BE51F2A773A4F002A0E08 /* Project object */;
 }
